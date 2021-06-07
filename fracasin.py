@@ -8,7 +8,7 @@ prefijoFracasoBar = '.'
 idFracasoBar = ''
 
 fracasobot= commands.Bot(command_prefix = prefijoFracasoBar)
-status = cycle(['Saludos a Mamá Pucha', 'Quiero una pollería', 'keoña keoña', 'Sanadistanciando', 'Cookie Run :('])
+status = cycle(['Quiero una pollería', 'keoña keoña', 'Sanadistanciando', 'Cookie Run :('])
 
 @fracasobot.event
 async def on_ready():
@@ -44,4 +44,4 @@ for filename in os.listdir('./cogs'):
 	if filename.endswith('.py'):
 		fracasobot.load_extension(f'cogs.{filename[:-3]}')
 
-fracasobot.run('NzQwOTk4NjE3MDc0MjM3NTIx.XyxKvQ.1aRHaBfhN--vm-GLjStxsGyxSrM')	
+fracasobot.run('Insertar token aca')	
